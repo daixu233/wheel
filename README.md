@@ -1,9 +1,4 @@
 #  轮子 -  一个Vue UI组件
-[![Build Status](https://travis-ci.org/zixiamu/lunzi_vue_1.svg?branch=master)](https://travis-ci.org/zixiamu/lunzi_vue_1)
-作者：zixiamu
-##介绍
-这是我在学习Vue过程中做的一个UI框架，希望对你有用。
-
 
 ##开始使用
 
@@ -52,7 +47,4 @@ export default {
 <script src="//at.alicdn.com/t/font_1244576_my7l3uiyvbq.js"></script>
 ```
 ## 文档
-##提问
-##变更记录
-##联系方式
-##贡献代码
+
