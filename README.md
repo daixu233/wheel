@@ -46,5 +46,4 @@ export default {
 ```
 <script src="//at.alicdn.com/t/font_1244576_my7l3uiyvbq.js"></script>
 ```
-## 文档
 
