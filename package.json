@@ -1,0 +1,51 @@
+{
+  "name": "lunzi-vue-1",
+  "version": "0.0.3",
+  "description": "这是一个UI框架",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "parcel index.html --no-cache",
+    "dev-test": "parcel watch test/* --no-cache & karma start",
+    "test": "parcel build test/* --no-cache --no-minify && karma start --single-run",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zixiamu/lunzi_vue_1.git"
+  },
+  "keywords": [
+    "vue",
+    "ui"
+  ],
+  "author": "zixiamu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zixiamu/lunzi_vue_1/issues"
+  },
+  "homepage": "https://github.com/zixiamu/lunzi_vue_1#readme",
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "chai": "^4.2.0",
+    "chai-spies": "^1.0.0",
+    "karma": "^4.1.0",
+    "karma-chai": "^0.1.0",
+    "karma-chai-spies": "^0.1.4",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-mocha": "^1.3.0",
+    "karma-sinon-chai": "^2.0.2",
+    "mocha": "^6.1.4",
+    "parcel-bundler": "^1.12.3",
+    "sinon": "^7.3.2",
+    "sinon-chai": "^3.3.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuepress": "^1.0.2"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  }
+}
